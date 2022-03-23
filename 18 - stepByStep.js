@@ -2,9 +2,12 @@
 // i.e: stepByStep(5)
 // "012345"
 
-const stepByStep = () => {
+const stepByStep = (number) => {
+  let i = number;
+  while (i >= 0) {
+    console.log(i);
+    i = i - 1;
+  }
+};
 
-}
-
-
-console.log(stepByStep(5))
+console.log(stepByStep(5));

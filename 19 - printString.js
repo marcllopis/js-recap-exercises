@@ -3,6 +3,8 @@
 // i.e: printString(3, 'blue')
 // 'blueblueblue'
 
-const printString = () => {};
+const printString = (number, string) => {
+  return string.repeat(number);
+};
 
 console.log(printString(3, "blue"));

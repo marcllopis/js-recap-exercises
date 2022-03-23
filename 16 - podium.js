@@ -4,8 +4,16 @@
 // third place: 'bronze'
 // other places: 'keep trying!
 
-const podium = () => {
-   
-}
+const podium = (position) => {
+  if (position === 1) {
+    return "gold";
+  } else if (position === 2) {
+    return "silver";
+  } else if (position === 3) {
+    return "bronze";
+  } else {
+    return "keep trying";
+  }
+};
 
-console.log(podium(3))
+console.log(podium(3));

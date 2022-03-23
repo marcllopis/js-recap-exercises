@@ -3,3 +3,13 @@
 // move(arr1, arr2).
 // arr1 = [1, 2]
 // arr2 = [4, 5, 3]
+
+const move = (firstArray, secondArray) => {
+  let removed = firstArray.pop();
+  secondArray.push(removed);
+};
+
+let arr1 = [1, 2];
+let arr2 = [4, 5, 3];
+move(arr1, arr2);
+console.log(arr1, arr2);

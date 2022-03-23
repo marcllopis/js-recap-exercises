@@ -2,3 +2,4 @@
 
 const lettersArray = ["a", "b", "c", "d", "e", "f", "g", "h"];
 
+console.log(lettersArray.map((element) => element));
